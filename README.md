@@ -1,15 +1,16 @@
 # my-zod-tutorial
 
-To install dependencies:
+- `bun init -y`
+
+## dependencies:
 
 ```bash
-bun install
+bun add zod
+
+bun add -D @total-typescript/exercise-cli @types/node jsdom vite-tsconfig-paths vitest
 ```
 
-To run:
+## How to take the exercise
 
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.10. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+1.  Run `npm run exercise`
+2.  Choose which exercise you'd like to run.
